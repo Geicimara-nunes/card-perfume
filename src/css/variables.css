@@ -1,0 +1,8 @@
+:root{
+    --max-width-size: 1440px;
+    --primary-color: hsl(158, 36%, 37%);
+    --second-color: hsl(161, 46%, 19%);
+    --text-color:hsl(228, 12%, 48%);
+    --body-background-color:hsl(30, 38%, 92%);
+    --card-background-color: hsl(0, 0%, 100%);
+}

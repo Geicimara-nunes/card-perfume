@@ -1,0 +1,106 @@
+body {
+    max-width: var(--max-width-size);
+    background-color: var(--body-background-color);
+}
+
+main {
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.imagem-perfume {
+    width: 300px;
+    height: 450px;
+}
+
+.imagem-perfume img {
+    width: 300px;
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.informacoes-perfume {
+    width: 300px;
+    height: 450px;
+    background-color: var(--card-background-color);
+    padding-left: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.informacoes-perfume .titulo {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--text-color);
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+
+.informacoes-perfume h1 {
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    padding-top: 20px;
+    width: 250px;
+}
+
+.informacoes-perfume .texto {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+    padding-top: 25px;
+    line-height: 22px;
+    width: 240px;
+}
+
+.preco-perfume {
+    display: flex;
+    padding-top: 20px;
+}
+
+.preco-perfume .preco-com-desconto  {
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    color: var(--primary-color);
+    padding-right: 18px;
+}
+
+.preco-perfume .preco-sem-desconto {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: line-through;
+    padding-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 30px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    width: 240px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    transition: 0.3s;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.btn img {
+    padding-right: 8px;
+}
+
+.btn:hover {
+    background-color: var(--second-color);
+    cursor: pointer;
+}

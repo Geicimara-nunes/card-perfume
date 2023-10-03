@@ -1,0 +1,57 @@
+@media (max-width: 600px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .imagem-perfume {
+        width: 300px;
+        height: 200px;
+    }
+
+    .imagem-perfume img {
+        width: 300px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .informacoes-perfume {
+        width: 300px;
+        height: 380px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0;
+        padding-left: 0;
+    }
+
+    .informacoes-perfume .titulo {
+        padding-left: 30px;
+        font-size: 12px;
+    }
+
+    .informacoes-perfume h1 {
+        padding-left: 30px;
+        width: 230px;
+        font-size: 25px;
+        padding-top: 15px;
+    }
+
+    .informacoes-perfume .texto {
+        padding-left: 30px;
+        font-weight: 600;
+        width: 210px;
+        font-size: 12px;
+        padding-top: 15px;
+    }
+
+    .preco-perfume {
+        padding-left: 30px;
+    }
+
+    .btn {
+        margin-left: 30px;
+    }
+
+}
